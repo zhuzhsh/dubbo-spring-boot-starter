@@ -5,7 +5,7 @@ import org.apache.commons.logging.LogFactory;
 import org.springframework.boot.Banner;
 import org.springframework.boot.Banner.Mode;
 import org.springframework.boot.context.event.ApplicationEnvironmentPreparedEvent;
-import org.springframework.boot.logging.LoggingApplicationListener;
+import org.springframework.boot.context.logging.LoggingApplicationListener;
 import org.springframework.context.ApplicationListener;
 import org.springframework.core.annotation.Order;
 

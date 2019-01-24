@@ -4,7 +4,7 @@
 
 	<groupId>com.alibaba.spring.boot</groupId>
 	<artifactId>dubbo-spring-boot-starter</artifactId>
-	<version>2.0.1-SNAPSHOT</version>
+	<version>2.0.2-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>dubbo-spring-boot-starter</name>
@@ -14,11 +14,11 @@
 	<properties>
 		<!-- project -->
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<java.version>1.6</java.version>
+		<java.version>1.8</java.version>
 
 		<!-- dependencies -->
-		<spring-boot.version>1.5.10.RELEASE</spring-boot.version>
-		<dubbo.version>2.6.0</dubbo.version>
+		<spring-boot.version>2.0.7.RELEASE</spring-boot.version>
+		<dubbo.version>2.6.5</dubbo.version>
 
 		<!-- plugins -->
 		<maven-compiler-plugin.version>3.7.0</maven-compiler-plugin.version>
@@ -153,9 +153,9 @@
 	</build>
 
 	<scm>
-		<connection>scm:git:git@github.com:alibaba/dubbo-spring-boot-starter.git</connection>
-		<developerConnection>scm:git:git@github.com:alibaba/dubbo-spring-boot-starter.git</developerConnection>
-		<url>https://github.com/alibaba/dubbo-spring-boot-starter.git</url>
+		<connection>scm:git:git@github.com:zhuzhsh/dubbo-spring-boot-starter.git</connection>
+		<developerConnection>scm:git:git@github.com:zhuzhsh/dubbo-spring-boot-starter.git</developerConnection>
+		<url>https://github.com/zhuzhsh/dubbo-spring-boot-starter.git</url>
 	</scm>
 
 	<licenses>
@@ -207,6 +207,12 @@
 			<id>Ivan97</id>
 			<name>张砚池</name>
 			<email>yangkizhang@gmail.com</email>
+		</developer>
+		
+		<developer>
+			<id>zhuzhsh</id>
+			<name>朱治生</name>
+			<email>zhuzhsh@icloudnative.cn</email>
 		</developer>
 	</developers>
 
